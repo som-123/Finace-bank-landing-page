@@ -1,10 +1,11 @@
+"use client"
 import Navbar from '/components/Navbar';
 export default function Home() {
   return (
     <div className="capitalize w-screen overflow-x-hidden">
       <div className="page1 w-full">
-        <Navbar />
-        <div className="Page1Body flex flex-col md:flex-row justify-between mb-[500px] md:mb-0">
+        <Navbar/>
+        <div className="Page1Body flex flex-col md:flex-row justify-between mt-8 mb-[500px] md:mb-0">
           <div className="Page1LeftContent capitalize w-full md:w-1/2 px-8 md:px-16 lg:px-20 md:pl-16 lg:pl-36 py-8 md:py-16 relative">
             <img className="z-10 scale-75 absolute left-[30px] md:left-[60px] top-[-10px] rotate-[-30deg]" src="/images/Star.png" alt="Star" />
             <img className="z-10 scale-75 absolute left-[237.5px] md:left-[400px] xl:left-[175px] top-[275px] md:top-[400px] xl:top-[350px] rotate-[-30deg]" src="/images/Star.png" alt="Star" />
@@ -12,11 +13,11 @@ export default function Home() {
             <div className="text-3xl md:text-4xl lg:text-5xl my-2">Make The Best Financial Decisions</div>
             <div className="text-[#808080]">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</div>
             <div className="flex flex-row items-center gap-4 md:gap-8 my-6">
-              <button className="bg-black text-white px-4 md:px-6 py-3 md:py-4 flex gap-3 items-center rounded" type="button">
+              <button className="bg-black hover:bg-gray-800 text-white px-4 md:px-6 py-3 md:py-4 flex gap-3 items-center rounded" type="button">
                 <span>Get Started</span>
                 <img src="/images/rightarrow.png" alt="Right Arrow" />
               </button>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 hover:scale-110 hover:cursor-pointer">
                 <img src="/images/Play.png" alt="Play" />
                 <div>Watch Video</div>
               </div>
@@ -199,45 +200,6 @@ export default function Home() {
           <img src="/images/star.png" className="invert scale-90 absolute top-[30px] right-[290px]"></img>
           <img src="/images/star.png" className="invert scale-75 absolute bottom-[90px] left-[390px] rotate-[-20deg]"></img>
         </div>
-      </div>
-
-      <div className="page8 w-full">
-        <div className="flex justify-between md:justify-around flex-wrap gap-6 w-4/5 m-auto mb-20">
-          <ul className="flex flex-col gap-3 md:items-start">
-            <li><img src="/images/logo.png" /></li>
-            <li className="flex items-center gap-2"><img src="/images/mail.png"></img>help@frybix.com</li>
-            <li className="flex items-center gap-2"><img src="/images/call.png"></img>+1 234 456 678 89</li>
-          </ul>
-          <ul className="flex flex-col gap-3 text-center lg:items-start">
-            <li className="text-3xl">Links</li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Bookings</li>
-            <li>Blog</li>
-          </ul>
-          <ul className="flex flex-col gap-3 text-center lg:items-start">
-            <li className="text-3xl">Legal</li>
-            <li>Terms Of Use</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-          </ul>
-          <ul className="flex flex-col gap-3 text-center lg:items-start">
-            <li className="text-3xl">Product</li>
-            <li>Take Tour</li>
-            <li>Live Chat</li>
-            <li>Reviews</li>
-          </ul>
-          <ul className="flex flex-col gap-3 text-center lg:items-start">
-            <li className="text-3xl">Newsletter</li>
-            <li>Stay Up To Date</li>
-            <li>
-              <input type="email" id="email" placeholder="Your email" className="px-5 py-3 border-[0.5px]"></input>
-              <input type="submit" value="Subscribe" className="bg-black px-5 py-3 my-2 text-white rounded" />
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <div className="text-center my-10">Copyright 2022 uifry.com all rights reserved</div>
       </div>
     </div>
   );
