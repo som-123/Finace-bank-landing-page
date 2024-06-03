@@ -17,7 +17,7 @@ export default function Blog() {
                     <div className="text-3xl md:text-4xl font-bold pb-4">uifry premium</div>
                     <div>
                         <div className="flex gap-2 py-3">
-                            <img src="images/Bulletstar.png" alt="Bulletstar" />
+                            <img src="images/BulletStar.png" alt="BulletStar" />
                             <span className="font-bold text-sm">budgeting intervals</span>
                         </div>
                         <div className="text-[#808080] text-sm pb-3">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</div>

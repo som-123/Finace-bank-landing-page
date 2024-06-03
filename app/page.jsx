@@ -53,7 +53,7 @@ export default function Home() {
           <div className="text-3xl md:text-4xl font-bold pb-4">uifry premium</div>
           <div>
             <div className="flex gap-2 py-3">
-              <img src="images/Bulletstar.png" alt="Bulletstar" />
+              <img src="images/BulletStar.png" alt="BulletStar" />
               <span className="font-bold text-sm">budgeting intervals</span>
             </div>
             <div className="text-[#808080] text-sm pb-3">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</div>
@@ -151,7 +151,7 @@ export default function Home() {
       <div className="page-6 w-4/5 m-auto mb-40 relative">
         <div className="text-[#ff5455]">FAQ</div>
         <div className="text-2xl md:text-4xl font-bold w-4/5 lg:w-2/5 pb-8">Frequently asked questions</div>
-        <img src="images/star.png" className="absolute top-[30px] right-[20px] sm:right-[100px] xl:right-[480px]"></img>
+        <img src="images/Star.png" className="absolute top-[30px] right-[20px] sm:right-[100px] xl:right-[480px]"></img>
         <div className="grid grid-rows-6 md:grid-rows-3 grid-flow-col gap-2">
           <div className="bg-[#ff5455] text-white rounded-md py-6 px-4">
             <div className="text-xl font-bold">the best financial accounting app ever!</div>
@@ -181,12 +181,12 @@ export default function Home() {
       </div>
 
       <div className="page-7 w-full mb-40 relative">
-        <img src="/images/star.png" className="absolute z-10 top-[120px] left-[60px] rotate-[-20deg]"></img>
-        <img src="/images/star.png" className="absolute right-[90px] top-[-90px]"></img>
+        <img src="/images/Star.png" className="absolute z-10 top-[120px] left-[60px] rotate-[-20deg]"></img>
+        <img src="/images/Star.png" className="absolute right-[90px] top-[-90px]"></img>
         <img src="/images/BGspot.png" className="absolute top-[-160px]"></img>
         <div className="w-full md:py-32 pt-96 pb-32 xl:w-2/3 bg-black m-auto relative rounded-md overflow-hidden">
           <div className="text-white px-4 lg:px-28 w-full md:w-[300px] lg:w-[550px]">
-            <div className="text-3xl font-extrabold">ready to get started?</div>
+            <div className="text-3xl font-extrabold">ready to get Started?</div>
             <div className="text-sm my-3">Risus habitant leo egestas mauris diam eget morbi tempus vulputate.</div>
             <button type="button" className="bg-white text-black flex gap-4 items-center py-3 px-4 rounded">
               <span>Download App</span>
@@ -197,8 +197,8 @@ export default function Home() {
           <img src="/images/Ellipses2.png" className="absolute bottom-[0px]"></img>
           <img src="/images/Ellipses3.png" className="scale-75 z-10 absolute top-[-58px] right-[-30px]"></img>
           <img src="/images/BGspot.png" className="scale-75 absolute top-[30px] right-[-150px] rotate-[210deg]"></img>
-          <img src="/images/star.png" className="invert scale-90 absolute top-[30px] right-[290px]"></img>
-          <img src="/images/star.png" className="invert scale-75 absolute bottom-[90px] left-[390px] rotate-[-20deg]"></img>
+          <img src="/images/Star.png" className="invert scale-90 absolute top-[30px] right-[290px]"></img>
+          <img src="/images/Star.png" className="invert scale-75 absolute bottom-[90px] left-[390px] rotate-[-20deg]"></img>
         </div>
       </div>
     </div>
